@@ -1,0 +1,7 @@
+PyMuPDF            # for reading and extracting text from PDF files
+tqdm               # for displaying progress bars during long loops
+sentence-transformers  # for creating text embeddings (vector representations)
+accelerate          # for efficient model loading and GPU acceleration
+bitsandbytes        # for quantizing models (reduces GPU memory usage)
+flash-attn          # for faster attention mechanism → faster LLM inference
+torch               # for running deep learning models (PyTorch backend)
