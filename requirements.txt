@@ -5,3 +5,4 @@ accelerate          # for efficient model loading and GPU acceleration
 bitsandbytes        # for quantizing models (reduces GPU memory usage)
 flash-attn          # for faster attention mechanism → faster LLM inference
 torch               # for running deep learning models (PyTorch backend)
+spacy                   # for sentence segmentation and linguistic text processing
