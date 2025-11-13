@@ -1,8 +1,10 @@
-PyMuPDF            # for reading and extracting text from PDF files
-tqdm               # for displaying progress bars during long loops
-sentence-transformers  # for creating text embeddings (vector representations)
-accelerate          # for efficient model loading and GPU acceleration
-bitsandbytes        # for quantizing models (reduces GPU memory usage)
-flash-attn          # for faster attention mechanism → faster LLM inference
-torch               # for running deep learning models (PyTorch backend)
-spacy                   # for sentence segmentation and linguistic text processing
+PyMuPDF                 # for reading and extracting text from PDF files
+tqdm                    # for displaying progress bars
+sentence-transformers   # for creating text embeddings (all-mpnet-base-v2, etc.)
+accelerate              # for efficient model loading / device placement
+bitsandbytes            # for 4-bit quantization of LLM weights
+flash-attn              # for faster attention (optional; may fail on some GPUs)
+transformers            # for loading and running Gemma and other Hugging Face LLMs
+spacy                   # for sentence segmentation (sentencizer)
+torch                   # PyTorch backend for embeddings and LLM
+numpy                   # numerical arrays for embeddings and similarity
