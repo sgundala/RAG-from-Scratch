@@ -54,5 +54,5 @@ The goal is to show the full RAG workflow **without LangChain / LlamaIndex**.
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/<your-username>/rag-nutrition-rag.git
+git clone https://github.com/sgundala/RAG-from-Scratch.git
 cd rag-nutrition-rag
