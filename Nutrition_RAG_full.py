@@ -13,9 +13,7 @@ End-to-end RAG over a Human Nutrition PDF:
 
 To use Gemma, set your Hugging Face token in an env var:
 
-    export HUGGINGFACE_HUB_TOKEN=hf_xxx...
-
-Then run this script or copy cells into Colab.
+    export HUGGINGFACE_HUB_TOKen
 """
 
 import os
